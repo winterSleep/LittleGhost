@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '5.0'
 
-  s.source       = { :git => "https://github.com/winterSleep/LittleGhost.git", :branch => 'master'}
+  s.source       = { :git => "https://github.com/winterSleep/LittleGhost.git", :tag => 'V0.0.1'}
 
   s.source_files  = 'LittleGhostCore/*.{h,m,c}', 'LittleGhostCore/**/*.{h,m,c}'
   s.requires_arc = false
