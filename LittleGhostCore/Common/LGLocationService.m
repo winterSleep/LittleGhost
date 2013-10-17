@@ -7,6 +7,7 @@
 //
 
 #import "LGLocationService.h"
+#import "LGCommon.h"
 
 @implementation LGLocationService
 

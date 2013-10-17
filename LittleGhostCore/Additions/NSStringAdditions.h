@@ -15,7 +15,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "LGCommon.h"
 
 /**
  * Doxygen does not handle categories very well, so please refer to the .m file in general

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TTTableViewDataSource.h"
+#import "LGCommon.h"
 
 @interface TTTableViewController : UIViewController{
     id <TTTableViewDataSource> _dataSource;

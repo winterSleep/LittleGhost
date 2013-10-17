@@ -16,6 +16,7 @@
 
 // UI
 #import "TTTableViewDataSource.h"
+#import "LGCommon.h"
 
 @interface TTSectionedDataSource : TTTableViewDataSource {
   NSMutableArray* _sections;

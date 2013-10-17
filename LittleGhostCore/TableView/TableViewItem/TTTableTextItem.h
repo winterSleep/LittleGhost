@@ -16,6 +16,7 @@
 
 // UI
 #import "TTTableLinkedItem.h"
+#import "LGCommon.h"
 
 @interface TTTableTextItem : TTTableLinkedItem {
   NSString* _text;
