@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LittleGhost"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "The synchronous Twitter engine that doesn’t suck!! USE THE MASTER BRANCH"
   s.homepage     = "https://github.com/winterSleep/LittleGhost"
   s.license      = {

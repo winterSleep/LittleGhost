@@ -16,6 +16,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "TTGlobalUICommon.h"
 
 @interface UITableView (TTCategory)
 
