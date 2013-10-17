@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A0AFF180F917800EC2314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0AFE180F917800EC2314 /* Foundation.framework */; };
+		EA5A0B01180F917800EC2314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0B00180F917800EC2314 /* CoreGraphics.framework */; };
+		EA5A0B03180F917800EC2314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0B02180F917800EC2314 /* UIKit.framework */; };
+		EA5A0B09180F917800EC2314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0B07180F917800EC2314 /* InfoPlist.strings */; };
+		EA5A0B0B180F917800EC2314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0B0A180F917800EC2314 /* main.m */; };
+		EA5A0B0F180F917800EC2314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0B0E180F917800EC2314 /* AppDelegate.m */; };
+		EA5A0B12180F917800EC2314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0B10180F917800EC2314 /* Main.storyboard */; };
+		EA5A0B15180F917800EC2314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0B14180F917800EC2314 /* ViewController.m */; };
+		EA5A0B17180F917800EC2314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0B16180F917800EC2314 /* Images.xcassets */; };
+		EA5A0B1E180F917800EC2314 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0B1D180F917800EC2314 /* XCTest.framework */; };
+		EA5A0B1F180F917800EC2314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0AFE180F917800EC2314 /* Foundation.framework */; };
+		EA5A0B20180F917800EC2314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0B02180F917800EC2314 /* UIKit.framework */; };
+		EA5A0B28180F917800EC2314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0B26180F917800EC2314 /* InfoPlist.strings */; };
+		EA5A0B2A180F917800EC2314 /* LittleGhostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0B29180F917800EC2314 /* LittleGhostTests.m */; };
+		EA5A0C4A180FAE4300EC2314 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BAF180FAE4300EC2314 /* NSDataAdditions.m */; };
+		EA5A0C4B180FAE4300EC2314 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BB1180FAE4300EC2314 /* NSDateAdditions.m */; };
+		EA5A0C4C180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BB3180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.m */; };
+		EA5A0C4D180FAE4300EC2314 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BB5180FAE4300EC2314 /* NSStringAdditions.m */; };
+		EA5A0C4E180FAE4300EC2314 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BB7180FAE4300EC2314 /* UIColorAdditions.m */; };
+		EA5A0C4F180FAE4300EC2314 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BB9180FAE4300EC2314 /* UIImageAdditions.m */; };
+		EA5A0C50180FAE4300EC2314 /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BBB180FAE4300EC2314 /* UINavigationBar+Background.m */; };
+		EA5A0C51180FAE4300EC2314 /* UITableViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BBD180FAE4300EC2314 /* UITableViewAdditions.m */; };
+		EA5A0C52180FAE4300EC2314 /* UIView+FrameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BBF180FAE4300EC2314 /* UIView+FrameCategory.m */; };
+		EA5A0C53180FAE4300EC2314 /* UIView+TTUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BC1180FAE4300EC2314 /* UIView+TTUICommon.m */; };
+		EA5A0C54180FAE4300EC2314 /* UIWindowAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BC3180FAE4300EC2314 /* UIWindowAdditions.m */; };
+		EA5A0C55180FAE4300EC2314 /* LGLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BC7180FAE4300EC2314 /* LGLocationService.m */; };
+		EA5A0C56180FAE4300EC2314 /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BCA180FAE4300EC2314 /* TTDebug.m */; };
+		EA5A0C57180FAE4300EC2314 /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BCC180FAE4300EC2314 /* TTGlobalCoreLocale.m */; };
+		EA5A0C58180FAE4300EC2314 /* TTGlobalCorePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BCE180FAE4300EC2314 /* TTGlobalCorePaths.m */; };
+		EA5A0C59180FAE4300EC2314 /* TTGlobalUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BD0180FAE4300EC2314 /* TTGlobalUICommon.m */; };
+		EA5A0C5A180FAE4300EC2314 /* LittleGhostCore.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0BD2180FAE4300EC2314 /* LittleGhostCore.m */; };
+		EA5A0C80180FAE4300EC2314 /* TTDefaultStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C24180FAE4300EC2314 /* TTDefaultStyleSheet.m */; };
+		EA5A0C81180FAE4300EC2314 /* TTGlobalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C26180FAE4300EC2314 /* TTGlobalStyle.m */; };
+		EA5A0C82180FAE4300EC2314 /* TTStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C28180FAE4300EC2314 /* TTStyleSheet.m */; };
+		EA5A0C83180FAE4300EC2314 /* TTTableLinkedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C2D180FAE4300EC2314 /* TTTableLinkedItemCell.m */; };
+		EA5A0C84180FAE4300EC2314 /* TTTableTextItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C2F180FAE4300EC2314 /* TTTableTextItemCell.m */; };
+		EA5A0C85180FAE4300EC2314 /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C31180FAE4300EC2314 /* TTTableViewCell.m */; };
+		EA5A0C86180FAE4300EC2314 /* TTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C34180FAE4300EC2314 /* TTTableViewController.m */; };
+		EA5A0C87180FAE4300EC2314 /* TTListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C37180FAE4300EC2314 /* TTListDataSource.m */; };
+		EA5A0C88180FAE4300EC2314 /* TTSectionedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C39180FAE4300EC2314 /* TTSectionedDataSource.m */; };
+		EA5A0C89180FAE4300EC2314 /* TTTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C3B180FAE4300EC2314 /* TTTableViewDataSource.m */; };
+		EA5A0C8A180FAE4300EC2314 /* TTTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C3E180FAE4300EC2314 /* TTTableViewDelegate.m */; };
+		EA5A0C8B180FAE4300EC2314 /* TTTableViewVarHeightDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C40180FAE4300EC2314 /* TTTableViewVarHeightDelegate.m */; };
+		EA5A0C8C180FAE4300EC2314 /* TTTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C43180FAE4300EC2314 /* TTTableItem.m */; };
+		EA5A0C8D180FAE4300EC2314 /* TTTableLinkedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C45180FAE4300EC2314 /* TTTableLinkedItem.m */; };
+		EA5A0C8E180FAE4300EC2314 /* TTTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C47180FAE4300EC2314 /* TTTableSection.m */; };
+		EA5A0C8F180FAE4300EC2314 /* TTTableTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0C49180FAE4300EC2314 /* TTTableTextItem.m */; };
+		EA5A0C91180FAED800EC2314 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A0C90180FAED800EC2314 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5A0B21180F917800EC2314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5A0AF3180F917800EC2314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5A0AFA180F917800EC2314;
+			remoteInfo = LittleGhost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5A0AFB180F917800EC2314 /* LittleGhost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleGhost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A0AFE180F917800EC2314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5A0B00180F917800EC2314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA5A0B02180F917800EC2314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA5A0B06180F917800EC2314 /* LittleGhost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleGhost-Info.plist"; sourceTree = "<group>"; };
+		EA5A0B08180F917800EC2314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5A0B0A180F917800EC2314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5A0B0C180F917800EC2314 /* LittleGhost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleGhost-Prefix.pch"; sourceTree = "<group>"; };
+		EA5A0B0D180F917800EC2314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA5A0B0E180F917800EC2314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA5A0B11180F917800EC2314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5A0B13180F917800EC2314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA5A0B14180F917800EC2314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA5A0B16180F917800EC2314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA5A0B1C180F917800EC2314 /* LittleGhostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleGhostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A0B1D180F917800EC2314 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA5A0B25180F917800EC2314 /* LittleGhostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleGhostTests-Info.plist"; sourceTree = "<group>"; };
+		EA5A0B27180F917800EC2314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5A0B29180F917800EC2314 /* LittleGhostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleGhostTests.m; sourceTree = "<group>"; };
+		EA5A0BAD180FAE4300EC2314 /* LGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAdditions.h; sourceTree = "<group>"; };
+		EA5A0BAE180FAE4300EC2314 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		EA5A0BAF180FAE4300EC2314 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		EA5A0BB0180FAE4300EC2314 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		EA5A0BB1180FAE4300EC2314 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
+		EA5A0BB2180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AddNilObject.h"; sourceTree = "<group>"; };
+		EA5A0BB3180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AddNilObject.m"; sourceTree = "<group>"; };
+		EA5A0BB4180FAE4300EC2314 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		EA5A0BB5180FAE4300EC2314 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		EA5A0BB6180FAE4300EC2314 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		EA5A0BB7180FAE4300EC2314 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		EA5A0BB8180FAE4300EC2314 /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		EA5A0BB9180FAE4300EC2314 /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
+		EA5A0BBA180FAE4300EC2314 /* UINavigationBar+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Background.h"; sourceTree = "<group>"; };
+		EA5A0BBB180FAE4300EC2314 /* UINavigationBar+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Background.m"; sourceTree = "<group>"; };
+		EA5A0BBC180FAE4300EC2314 /* UITableViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewAdditions.h; sourceTree = "<group>"; };
+		EA5A0BBD180FAE4300EC2314 /* UITableViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewAdditions.m; sourceTree = "<group>"; };
+		EA5A0BBE180FAE4300EC2314 /* UIView+FrameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameCategory.h"; sourceTree = "<group>"; };
+		EA5A0BBF180FAE4300EC2314 /* UIView+FrameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameCategory.m"; sourceTree = "<group>"; };
+		EA5A0BC0180FAE4300EC2314 /* UIView+TTUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTUICommon.h"; sourceTree = "<group>"; };
+		EA5A0BC1180FAE4300EC2314 /* UIView+TTUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTUICommon.m"; sourceTree = "<group>"; };
+		EA5A0BC2180FAE4300EC2314 /* UIWindowAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindowAdditions.h; sourceTree = "<group>"; };
+		EA5A0BC3180FAE4300EC2314 /* UIWindowAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWindowAdditions.m; sourceTree = "<group>"; };
+		EA5A0BC5180FAE4300EC2314 /* LGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCommon.h; sourceTree = "<group>"; };
+		EA5A0BC6180FAE4300EC2314 /* LGLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLocationService.h; sourceTree = "<group>"; };
+		EA5A0BC7180FAE4300EC2314 /* LGLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLocationService.m; sourceTree = "<group>"; };
+		EA5A0BC8180FAE4300EC2314 /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
+		EA5A0BC9180FAE4300EC2314 /* TTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebug.h; sourceTree = "<group>"; };
+		EA5A0BCA180FAE4300EC2314 /* TTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDebug.m; sourceTree = "<group>"; };
+		EA5A0BCB180FAE4300EC2314 /* TTGlobalCoreLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCoreLocale.h; sourceTree = "<group>"; };
+		EA5A0BCC180FAE4300EC2314 /* TTGlobalCoreLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCoreLocale.m; sourceTree = "<group>"; };
+		EA5A0BCD180FAE4300EC2314 /* TTGlobalCorePaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCorePaths.h; sourceTree = "<group>"; };
+		EA5A0BCE180FAE4300EC2314 /* TTGlobalCorePaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCorePaths.m; sourceTree = "<group>"; };
+		EA5A0BCF180FAE4300EC2314 /* TTGlobalUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalUICommon.h; sourceTree = "<group>"; };
+		EA5A0BD0180FAE4300EC2314 /* TTGlobalUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalUICommon.m; sourceTree = "<group>"; };
+		EA5A0BD1180FAE4300EC2314 /* LittleGhostCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleGhostCore.h; sourceTree = "<group>"; };
+		EA5A0BD2180FAE4300EC2314 /* LittleGhostCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleGhostCore.m; sourceTree = "<group>"; };
+		EA5A0C23180FAE4300EC2314 /* TTDefaultStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDefaultStyleSheet.h; sourceTree = "<group>"; };
+		EA5A0C24180FAE4300EC2314 /* TTDefaultStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDefaultStyleSheet.m; sourceTree = "<group>"; };
+		EA5A0C25180FAE4300EC2314 /* TTGlobalStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalStyle.h; sourceTree = "<group>"; };
+		EA5A0C26180FAE4300EC2314 /* TTGlobalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalStyle.m; sourceTree = "<group>"; };
+		EA5A0C27180FAE4300EC2314 /* TTStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyleSheet.h; sourceTree = "<group>"; };
+		EA5A0C28180FAE4300EC2314 /* TTStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyleSheet.m; sourceTree = "<group>"; };
+		EA5A0C2A180FAE4300EC2314 /* LGTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTableView.h; sourceTree = "<group>"; };
+		EA5A0C2C180FAE4300EC2314 /* TTTableLinkedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableLinkedItemCell.h; sourceTree = "<group>"; };
+		EA5A0C2D180FAE4300EC2314 /* TTTableLinkedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableLinkedItemCell.m; sourceTree = "<group>"; };
+		EA5A0C2E180FAE4300EC2314 /* TTTableTextItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableTextItemCell.h; sourceTree = "<group>"; };
+		EA5A0C2F180FAE4300EC2314 /* TTTableTextItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableTextItemCell.m; sourceTree = "<group>"; };
+		EA5A0C30180FAE4300EC2314 /* TTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewCell.h; sourceTree = "<group>"; };
+		EA5A0C31180FAE4300EC2314 /* TTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewCell.m; sourceTree = "<group>"; };
+		EA5A0C33180FAE4300EC2314 /* TTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewController.h; sourceTree = "<group>"; };
+		EA5A0C34180FAE4300EC2314 /* TTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewController.m; sourceTree = "<group>"; };
+		EA5A0C36180FAE4300EC2314 /* TTListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTListDataSource.h; sourceTree = "<group>"; };
+		EA5A0C37180FAE4300EC2314 /* TTListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTListDataSource.m; sourceTree = "<group>"; };
+		EA5A0C38180FAE4300EC2314 /* TTSectionedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSectionedDataSource.h; sourceTree = "<group>"; };
+		EA5A0C39180FAE4300EC2314 /* TTSectionedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSectionedDataSource.m; sourceTree = "<group>"; };
+		EA5A0C3A180FAE4300EC2314 /* TTTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewDataSource.h; sourceTree = "<group>"; };
+		EA5A0C3B180FAE4300EC2314 /* TTTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewDataSource.m; sourceTree = "<group>"; };
+		EA5A0C3D180FAE4300EC2314 /* TTTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewDelegate.h; sourceTree = "<group>"; };
+		EA5A0C3E180FAE4300EC2314 /* TTTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewDelegate.m; sourceTree = "<group>"; };
+		EA5A0C3F180FAE4300EC2314 /* TTTableViewVarHeightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewVarHeightDelegate.h; sourceTree = "<group>"; };
+		EA5A0C40180FAE4300EC2314 /* TTTableViewVarHeightDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewVarHeightDelegate.m; sourceTree = "<group>"; };
+		EA5A0C42180FAE4300EC2314 /* TTTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableItem.h; sourceTree = "<group>"; };
+		EA5A0C43180FAE4300EC2314 /* TTTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableItem.m; sourceTree = "<group>"; };
+		EA5A0C44180FAE4300EC2314 /* TTTableLinkedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableLinkedItem.h; sourceTree = "<group>"; };
+		EA5A0C45180FAE4300EC2314 /* TTTableLinkedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableLinkedItem.m; sourceTree = "<group>"; };
+		EA5A0C46180FAE4300EC2314 /* TTTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableSection.h; sourceTree = "<group>"; };
+		EA5A0C47180FAE4300EC2314 /* TTTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableSection.m; sourceTree = "<group>"; };
+		EA5A0C48180FAE4300EC2314 /* TTTableTextItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableTextItem.h; sourceTree = "<group>"; };
+		EA5A0C49180FAE4300EC2314 /* TTTableTextItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableTextItem.m; sourceTree = "<group>"; };
+		EA5A0C90180FAED800EC2314 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A0AF8180F917800EC2314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0C91180FAED800EC2314 /* CoreLocation.framework in Frameworks */,
+				EA5A0B01180F917800EC2314 /* CoreGraphics.framework in Frameworks */,
+				EA5A0B03180F917800EC2314 /* UIKit.framework in Frameworks */,
+				EA5A0AFF180F917800EC2314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A0B19180F917800EC2314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0B1E180F917800EC2314 /* XCTest.framework in Frameworks */,
+				EA5A0B20180F917800EC2314 /* UIKit.framework in Frameworks */,
+				EA5A0B1F180F917800EC2314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A0AF2180F917800EC2314 = {
+			isa = PBXGroup;
+			children = (
+				EA5A0BAB180FAE4300EC2314 /* LittleGhostCore */,
+				EA5A0B04180F917800EC2314 /* LittleGhost */,
+				EA5A0B23180F917800EC2314 /* LittleGhostTests */,
+				EA5A0AFD180F917800EC2314 /* Frameworks */,
+				EA5A0AFC180F917800EC2314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A0AFC180F917800EC2314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0AFB180F917800EC2314 /* LittleGhost.app */,
+				EA5A0B1C180F917800EC2314 /* LittleGhostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A0AFD180F917800EC2314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C90180FAED800EC2314 /* CoreLocation.framework */,
+				EA5A0AFE180F917800EC2314 /* Foundation.framework */,
+				EA5A0B00180F917800EC2314 /* CoreGraphics.framework */,
+				EA5A0B02180F917800EC2314 /* UIKit.framework */,
+				EA5A0B1D180F917800EC2314 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5A0B04180F917800EC2314 /* LittleGhost */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0B0D180F917800EC2314 /* AppDelegate.h */,
+				EA5A0B0E180F917800EC2314 /* AppDelegate.m */,
+				EA5A0B10180F917800EC2314 /* Main.storyboard */,
+				EA5A0B13180F917800EC2314 /* ViewController.h */,
+				EA5A0B14180F917800EC2314 /* ViewController.m */,
+				EA5A0B16180F917800EC2314 /* Images.xcassets */,
+				EA5A0B05180F917800EC2314 /* Supporting Files */,
+			);
+			path = LittleGhost;
+			sourceTree = "<group>";
+		};
+		EA5A0B05180F917800EC2314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0B06180F917800EC2314 /* LittleGhost-Info.plist */,
+				EA5A0B07180F917800EC2314 /* InfoPlist.strings */,
+				EA5A0B0A180F917800EC2314 /* main.m */,
+				EA5A0B0C180F917800EC2314 /* LittleGhost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA5A0B23180F917800EC2314 /* LittleGhostTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0B29180F917800EC2314 /* LittleGhostTests.m */,
+				EA5A0B24180F917800EC2314 /* Supporting Files */,
+			);
+			path = LittleGhostTests;
+			sourceTree = "<group>";
+		};
+		EA5A0B24180F917800EC2314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0B25180F917800EC2314 /* LittleGhostTests-Info.plist */,
+				EA5A0B26180F917800EC2314 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA5A0BAB180FAE4300EC2314 /* LittleGhostCore */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0BAC180FAE4300EC2314 /* Additions */,
+				EA5A0BC4180FAE4300EC2314 /* Common */,
+				EA5A0BD1180FAE4300EC2314 /* LittleGhostCore.h */,
+				EA5A0BD2180FAE4300EC2314 /* LittleGhostCore.m */,
+				EA5A0C22180FAE4300EC2314 /* Style */,
+				EA5A0C29180FAE4300EC2314 /* TableView */,
+			);
+			path = LittleGhostCore;
+			sourceTree = "<group>";
+		};
+		EA5A0BAC180FAE4300EC2314 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0BAD180FAE4300EC2314 /* LGAdditions.h */,
+				EA5A0BAE180FAE4300EC2314 /* NSDataAdditions.h */,
+				EA5A0BAF180FAE4300EC2314 /* NSDataAdditions.m */,
+				EA5A0BB0180FAE4300EC2314 /* NSDateAdditions.h */,
+				EA5A0BB1180FAE4300EC2314 /* NSDateAdditions.m */,
+				EA5A0BB2180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.h */,
+				EA5A0BB3180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.m */,
+				EA5A0BB4180FAE4300EC2314 /* NSStringAdditions.h */,
+				EA5A0BB5180FAE4300EC2314 /* NSStringAdditions.m */,
+				EA5A0BB6180FAE4300EC2314 /* UIColorAdditions.h */,
+				EA5A0BB7180FAE4300EC2314 /* UIColorAdditions.m */,
+				EA5A0BB8180FAE4300EC2314 /* UIImageAdditions.h */,
+				EA5A0BB9180FAE4300EC2314 /* UIImageAdditions.m */,
+				EA5A0BBA180FAE4300EC2314 /* UINavigationBar+Background.h */,
+				EA5A0BBB180FAE4300EC2314 /* UINavigationBar+Background.m */,
+				EA5A0BBC180FAE4300EC2314 /* UITableViewAdditions.h */,
+				EA5A0BBD180FAE4300EC2314 /* UITableViewAdditions.m */,
+				EA5A0BBE180FAE4300EC2314 /* UIView+FrameCategory.h */,
+				EA5A0BBF180FAE4300EC2314 /* UIView+FrameCategory.m */,
+				EA5A0BC0180FAE4300EC2314 /* UIView+TTUICommon.h */,
+				EA5A0BC1180FAE4300EC2314 /* UIView+TTUICommon.m */,
+				EA5A0BC2180FAE4300EC2314 /* UIWindowAdditions.h */,
+				EA5A0BC3180FAE4300EC2314 /* UIWindowAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		EA5A0BC4180FAE4300EC2314 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0BC5180FAE4300EC2314 /* LGCommon.h */,
+				EA5A0BC6180FAE4300EC2314 /* LGLocationService.h */,
+				EA5A0BC7180FAE4300EC2314 /* LGLocationService.m */,
+				EA5A0BC8180FAE4300EC2314 /* TTCorePreprocessorMacros.h */,
+				EA5A0BC9180FAE4300EC2314 /* TTDebug.h */,
+				EA5A0BCA180FAE4300EC2314 /* TTDebug.m */,
+				EA5A0BCB180FAE4300EC2314 /* TTGlobalCoreLocale.h */,
+				EA5A0BCC180FAE4300EC2314 /* TTGlobalCoreLocale.m */,
+				EA5A0BCD180FAE4300EC2314 /* TTGlobalCorePaths.h */,
+				EA5A0BCE180FAE4300EC2314 /* TTGlobalCorePaths.m */,
+				EA5A0BCF180FAE4300EC2314 /* TTGlobalUICommon.h */,
+				EA5A0BD0180FAE4300EC2314 /* TTGlobalUICommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EA5A0C22180FAE4300EC2314 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C23180FAE4300EC2314 /* TTDefaultStyleSheet.h */,
+				EA5A0C24180FAE4300EC2314 /* TTDefaultStyleSheet.m */,
+				EA5A0C25180FAE4300EC2314 /* TTGlobalStyle.h */,
+				EA5A0C26180FAE4300EC2314 /* TTGlobalStyle.m */,
+				EA5A0C27180FAE4300EC2314 /* TTStyleSheet.h */,
+				EA5A0C28180FAE4300EC2314 /* TTStyleSheet.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		EA5A0C29180FAE4300EC2314 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C2A180FAE4300EC2314 /* LGTableView.h */,
+				EA5A0C2B180FAE4300EC2314 /* TableViewCell */,
+				EA5A0C32180FAE4300EC2314 /* TableViewController */,
+				EA5A0C35180FAE4300EC2314 /* TableViewDataSource */,
+				EA5A0C3C180FAE4300EC2314 /* TableViewDelegate */,
+				EA5A0C41180FAE4300EC2314 /* TableViewItem */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		EA5A0C2B180FAE4300EC2314 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C2C180FAE4300EC2314 /* TTTableLinkedItemCell.h */,
+				EA5A0C2D180FAE4300EC2314 /* TTTableLinkedItemCell.m */,
+				EA5A0C2E180FAE4300EC2314 /* TTTableTextItemCell.h */,
+				EA5A0C2F180FAE4300EC2314 /* TTTableTextItemCell.m */,
+				EA5A0C30180FAE4300EC2314 /* TTTableViewCell.h */,
+				EA5A0C31180FAE4300EC2314 /* TTTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		EA5A0C32180FAE4300EC2314 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C33180FAE4300EC2314 /* TTTableViewController.h */,
+				EA5A0C34180FAE4300EC2314 /* TTTableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		EA5A0C35180FAE4300EC2314 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C36180FAE4300EC2314 /* TTListDataSource.h */,
+				EA5A0C37180FAE4300EC2314 /* TTListDataSource.m */,
+				EA5A0C38180FAE4300EC2314 /* TTSectionedDataSource.h */,
+				EA5A0C39180FAE4300EC2314 /* TTSectionedDataSource.m */,
+				EA5A0C3A180FAE4300EC2314 /* TTTableViewDataSource.h */,
+				EA5A0C3B180FAE4300EC2314 /* TTTableViewDataSource.m */,
+			);
+			path = TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		EA5A0C3C180FAE4300EC2314 /* TableViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C3D180FAE4300EC2314 /* TTTableViewDelegate.h */,
+				EA5A0C3E180FAE4300EC2314 /* TTTableViewDelegate.m */,
+				EA5A0C3F180FAE4300EC2314 /* TTTableViewVarHeightDelegate.h */,
+				EA5A0C40180FAE4300EC2314 /* TTTableViewVarHeightDelegate.m */,
+			);
+			path = TableViewDelegate;
+			sourceTree = "<group>";
+		};
+		EA5A0C41180FAE4300EC2314 /* TableViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A0C42180FAE4300EC2314 /* TTTableItem.h */,
+				EA5A0C43180FAE4300EC2314 /* TTTableItem.m */,
+				EA5A0C44180FAE4300EC2314 /* TTTableLinkedItem.h */,
+				EA5A0C45180FAE4300EC2314 /* TTTableLinkedItem.m */,
+				EA5A0C46180FAE4300EC2314 /* TTTableSection.h */,
+				EA5A0C47180FAE4300EC2314 /* TTTableSection.m */,
+				EA5A0C48180FAE4300EC2314 /* TTTableTextItem.h */,
+				EA5A0C49180FAE4300EC2314 /* TTTableTextItem.m */,
+			);
+			path = TableViewItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5A0AFA180F917800EC2314 /* LittleGhost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A0B2D180F917800EC2314 /* Build configuration list for PBXNativeTarget "LittleGhost" */;
+			buildPhases = (
+				EA5A0AF7180F917800EC2314 /* Sources */,
+				EA5A0AF8180F917800EC2314 /* Frameworks */,
+				EA5A0AF9180F917800EC2314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleGhost;
+			productName = LittleGhost;
+			productReference = EA5A0AFB180F917800EC2314 /* LittleGhost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5A0B1B180F917800EC2314 /* LittleGhostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A0B30180F917800EC2314 /* Build configuration list for PBXNativeTarget "LittleGhostTests" */;
+			buildPhases = (
+				EA5A0B18180F917800EC2314 /* Sources */,
+				EA5A0B19180F917800EC2314 /* Frameworks */,
+				EA5A0B1A180F917800EC2314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5A0B22180F917800EC2314 /* PBXTargetDependency */,
+			);
+			name = LittleGhostTests;
+			productName = LittleGhostTests;
+			productReference = EA5A0B1C180F917800EC2314 /* LittleGhostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A0AF3180F917800EC2314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "gft ";
+				TargetAttributes = {
+					EA5A0B1B180F917800EC2314 = {
+						TestTargetID = EA5A0AFA180F917800EC2314;
+					};
+				};
+			};
+			buildConfigurationList = EA5A0AF6180F917800EC2314 /* Build configuration list for PBXProject "LittleGhost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5A0AF2180F917800EC2314;
+			productRefGroup = EA5A0AFC180F917800EC2314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A0AFA180F917800EC2314 /* LittleGhost */,
+				EA5A0B1B180F917800EC2314 /* LittleGhostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5A0AF9180F917800EC2314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0B17180F917800EC2314 /* Images.xcassets in Resources */,
+				EA5A0B09180F917800EC2314 /* InfoPlist.strings in Resources */,
+				EA5A0B12180F917800EC2314 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A0B1A180F917800EC2314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0B28180F917800EC2314 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A0AF7180F917800EC2314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0C86180FAE4300EC2314 /* TTTableViewController.m in Sources */,
+				EA5A0C8F180FAE4300EC2314 /* TTTableTextItem.m in Sources */,
+				EA5A0B15180F917800EC2314 /* ViewController.m in Sources */,
+				EA5A0C4F180FAE4300EC2314 /* UIImageAdditions.m in Sources */,
+				EA5A0C85180FAE4300EC2314 /* TTTableViewCell.m in Sources */,
+				EA5A0C88180FAE4300EC2314 /* TTSectionedDataSource.m in Sources */,
+				EA5A0C87180FAE4300EC2314 /* TTListDataSource.m in Sources */,
+				EA5A0C82180FAE4300EC2314 /* TTStyleSheet.m in Sources */,
+				EA5A0C8B180FAE4300EC2314 /* TTTableViewVarHeightDelegate.m in Sources */,
+				EA5A0C58180FAE4300EC2314 /* TTGlobalCorePaths.m in Sources */,
+				EA5A0C80180FAE4300EC2314 /* TTDefaultStyleSheet.m in Sources */,
+				EA5A0C8E180FAE4300EC2314 /* TTTableSection.m in Sources */,
+				EA5A0C4E180FAE4300EC2314 /* UIColorAdditions.m in Sources */,
+				EA5A0C56180FAE4300EC2314 /* TTDebug.m in Sources */,
+				EA5A0C84180FAE4300EC2314 /* TTTableTextItemCell.m in Sources */,
+				EA5A0C51180FAE4300EC2314 /* UITableViewAdditions.m in Sources */,
+				EA5A0C8C180FAE4300EC2314 /* TTTableItem.m in Sources */,
+				EA5A0C59180FAE4300EC2314 /* TTGlobalUICommon.m in Sources */,
+				EA5A0C50180FAE4300EC2314 /* UINavigationBar+Background.m in Sources */,
+				EA5A0C8D180FAE4300EC2314 /* TTTableLinkedItem.m in Sources */,
+				EA5A0B0F180F917800EC2314 /* AppDelegate.m in Sources */,
+				EA5A0C4C180FAE4300EC2314 /* NSMutableDictionary+AddNilObject.m in Sources */,
+				EA5A0C57180FAE4300EC2314 /* TTGlobalCoreLocale.m in Sources */,
+				EA5A0C89180FAE4300EC2314 /* TTTableViewDataSource.m in Sources */,
+				EA5A0C53180FAE4300EC2314 /* UIView+TTUICommon.m in Sources */,
+				EA5A0C4A180FAE4300EC2314 /* NSDataAdditions.m in Sources */,
+				EA5A0C54180FAE4300EC2314 /* UIWindowAdditions.m in Sources */,
+				EA5A0B0B180F917800EC2314 /* main.m in Sources */,
+				EA5A0C4D180FAE4300EC2314 /* NSStringAdditions.m in Sources */,
+				EA5A0C5A180FAE4300EC2314 /* LittleGhostCore.m in Sources */,
+				EA5A0C55180FAE4300EC2314 /* LGLocationService.m in Sources */,
+				EA5A0C52180FAE4300EC2314 /* UIView+FrameCategory.m in Sources */,
+				EA5A0C83180FAE4300EC2314 /* TTTableLinkedItemCell.m in Sources */,
+				EA5A0C8A180FAE4300EC2314 /* TTTableViewDelegate.m in Sources */,
+				EA5A0C81180FAE4300EC2314 /* TTGlobalStyle.m in Sources */,
+				EA5A0C4B180FAE4300EC2314 /* NSDateAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A0B18180F917800EC2314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A0B2A180F917800EC2314 /* LittleGhostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5A0B22180F917800EC2314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5A0AFA180F917800EC2314 /* LittleGhost */;
+			targetProxy = EA5A0B21180F917800EC2314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5A0B07180F917800EC2314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A0B08180F917800EC2314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA5A0B10180F917800EC2314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A0B11180F917800EC2314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5A0B26180F917800EC2314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A0B27180F917800EC2314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A0B2B180F917800EC2314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5A0B2C180F917800EC2314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5A0B2E180F917800EC2314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleGhost/LittleGhost-Prefix.pch";
+				INFOPLIST_FILE = "LittleGhost/LittleGhost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA5A0B2F180F917800EC2314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleGhost/LittleGhost-Prefix.pch";
+				INFOPLIST_FILE = "LittleGhost/LittleGhost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA5A0B31180F917800EC2314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleGhost.app/LittleGhost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleGhost/LittleGhost-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LittleGhostTests/LittleGhostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA5A0B32180F917800EC2314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleGhost.app/LittleGhost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleGhost/LittleGhost-Prefix.pch";
+				INFOPLIST_FILE = "LittleGhostTests/LittleGhostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A0AF6180F917800EC2314 /* Build configuration list for PBXProject "LittleGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A0B2B180F917800EC2314 /* Debug */,
+				EA5A0B2C180F917800EC2314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A0B2D180F917800EC2314 /* Build configuration list for PBXNativeTarget "LittleGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A0B2E180F917800EC2314 /* Debug */,
+				EA5A0B2F180F917800EC2314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5A0B30180F917800EC2314 /* Build configuration list for PBXNativeTarget "LittleGhostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A0B31180F917800EC2314 /* Debug */,
+				EA5A0B32180F917800EC2314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A0AF3180F917800EC2314 /* Project object */;
+}

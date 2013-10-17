@@ -9,12 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "TTTableViewDataSource.h"
 
-@interface TTTableViewController : UITableViewController{
+@interface TTTableViewController : UIViewController{
     id <TTTableViewDataSource> _dataSource;
     id <UITableViewDelegate> _tableDelegate;
     BOOL _variableHeightRows;
     BOOL _showTableShadows;
+    BOOL _clearsSelectionOnViewWillAppear;
+    
+    UITableView             *_tableView;
+    UITableViewStyle        _tableViewStyle;
 }
+
+@property (retain, nonatomic) UITableView *tableView;
 
 @property (retain, nonatomic)id <TTTableViewDataSource> dataSource;
 
@@ -30,6 +36,17 @@
  * empty cells for the remaining space. This causes the bottom shadow to appear out of place.
  */
 @property (nonatomic) BOOL showTableShadows;
+
+/**
+ * A Boolean value indicating if the controller clears the selection when the table appears.
+ * Default is YES.
+ */
+@property (nonatomic) BOOL clearsSelectionOnViewWillAppear;
+
+/**
+ * Initializes and returns a controller having the given style.
+ */
+- (id)initWithStyle:(UITableViewStyle)style;
 
 - (void)reloadTableViewData;
 
@@ -53,9 +70,6 @@
  */
 - (void)didBeginDragging;
 
-/**
- * Tells the controller that the user stopped dragging the table view.
- */
 - (void)didEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate;
 
 - (void)didEndDecelerating;
@@ -63,5 +77,8 @@
 - (void)didScrollToTop;
 
 - (void)tableViewDidScroll:(UIScrollView *)tableView;
+- (void)tableView:(UITableView *)tableView willBeginEditingRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView didEndEditingRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
