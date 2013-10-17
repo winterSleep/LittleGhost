@@ -16,7 +16,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "LGTableView.h"
 #import "LGCommon.h"
 
 extern const CGFloat    kTableCellSmallMargin;

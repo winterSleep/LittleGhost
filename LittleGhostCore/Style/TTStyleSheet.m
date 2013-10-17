@@ -16,6 +16,7 @@
 
 #import "TTStyleSheet.h"
 #import "TTDefaultStyleSheet.h"
+#import "TTCorePreprocessorMacros.h"
 
 static TTStyleSheet* gStyleSheet = nil;
 
