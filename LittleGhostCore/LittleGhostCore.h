@@ -10,9 +10,6 @@
 #import "LGCommon.h"
 #import "LGAdditions.h"
 #import "LGTableView.h"
-#import "LGPopListView.h"
-#import "IAInfiniteGridView.h"
-#import "JTListView.h"
 
 @interface LittleGhostCore : NSObject
 

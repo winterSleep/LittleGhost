@@ -9,16 +9,12 @@
 /* Begin PBXBuildFile section */
 		1F4C35B517BBAB2B00E9A9A3 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C35B417BBAB2B00E9A9A3 /* NSDateAdditions.m */; };
 		1F4C35B817BBB76A00E9A9A3 /* UIView+TTUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C35B717BBB76A00E9A9A3 /* UIView+TTUICommon.m */; };
-		EA33DCF517978DE100266660 /* IAInfiniteGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA33DCF417978DE100266660 /* IAInfiniteGridView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		EA6FC1CF1798C4BF00227DD1 /* LGLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FC1CE1798C4BF00227DD1 /* LGLazyScrollView.m */; };
-		EA6FC1D61798E3A000227DD1 /* JTListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FC1D51798E3A000227DD1 /* JTListView.m */; };
 		EAD42C53177932AC001ACF3C /* LGLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD42C52177932AC001ACF3C /* LGLocationService.m */; };
 		EAD42C5917793B40001ACF3C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD42C5817793B40001ACF3C /* CoreLocation.framework */; };
 		EAD42C7317793C21001ACF3C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD42C7217793C21001ACF3C /* MapKit.framework */; };
 		EAD42C7517793C2A001ACF3C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD42C7417793C2A001ACF3C /* MobileCoreServices.framework */; };
 		EAD42C801779457B001ACF3C /* NSMutableDictionary+AddNilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD42C7F1779457B001ACF3C /* NSMutableDictionary+AddNilObject.m */; };
-		EAE1419E178264E30005D53F /* LGPopListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE1419B178264E30005D53F /* LGPopListView.m */; };
-		EAE1419F178264E30005D53F /* LGPopListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE1419D178264E30005D53F /* LGPopListViewCell.m */; };
 		EAECCCED1773E87E00D9E39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAECCCCD1773E83A00D9E39D /* Foundation.framework */; };
 		EAECCCF21773E87E00D9E39D /* LittleGhostCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EAECCCF11773E87E00D9E39D /* LittleGhostCore.h */; };
 		EAECCCF41773E87E00D9E39D /* LittleGhostCore.m in Sources */ = {isa = PBXBuildFile; fileRef = EAECCCF31773E87E00D9E39D /* LittleGhostCore.m */; };
@@ -75,12 +71,8 @@
 		1F4C35B417BBAB2B00E9A9A3 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
 		1F4C35B617BBB76A00E9A9A3 /* UIView+TTUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTUICommon.h"; sourceTree = "<group>"; };
 		1F4C35B717BBB76A00E9A9A3 /* UIView+TTUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTUICommon.m"; sourceTree = "<group>"; };
-		EA33DCF317978DE100266660 /* IAInfiniteGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAInfiniteGridView.h; sourceTree = "<group>"; };
-		EA33DCF417978DE100266660 /* IAInfiniteGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAInfiniteGridView.m; sourceTree = "<group>"; };
 		EA6FC1CD1798C4BF00227DD1 /* LGLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLazyScrollView.h; sourceTree = "<group>"; };
 		EA6FC1CE1798C4BF00227DD1 /* LGLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLazyScrollView.m; sourceTree = "<group>"; };
-		EA6FC1D41798E3A000227DD1 /* JTListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTListView.h; sourceTree = "<group>"; };
-		EA6FC1D51798E3A000227DD1 /* JTListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTListView.m; sourceTree = "<group>"; };
 		EAD42C51177932AC001ACF3C /* LGLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLocationService.h; sourceTree = "<group>"; };
 		EAD42C52177932AC001ACF3C /* LGLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLocationService.m; sourceTree = "<group>"; };
 		EAD42C5817793B40001ACF3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -88,10 +80,6 @@
 		EAD42C7417793C2A001ACF3C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EAD42C7E1779457B001ACF3C /* NSMutableDictionary+AddNilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AddNilObject.h"; sourceTree = "<group>"; };
 		EAD42C7F1779457B001ACF3C /* NSMutableDictionary+AddNilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AddNilObject.m"; sourceTree = "<group>"; };
-		EAE1419A178264E30005D53F /* LGPopListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPopListView.h; sourceTree = "<group>"; };
-		EAE1419B178264E30005D53F /* LGPopListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPopListView.m; sourceTree = "<group>"; };
-		EAE1419C178264E30005D53F /* LGPopListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPopListViewCell.h; sourceTree = "<group>"; };
-		EAE1419D178264E30005D53F /* LGPopListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPopListViewCell.m; sourceTree = "<group>"; };
 		EAECCCCB1773E83A00D9E39D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAECCCCD1773E83A00D9E39D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAECCCCF1773E83A00D9E39D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,35 +175,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA33DCF217978DD600266660 /* IAInfiniteGridView */ = {
-			isa = PBXGroup;
-			children = (
-				EA33DCF317978DE100266660 /* IAInfiniteGridView.h */,
-				EA33DCF417978DE100266660 /* IAInfiniteGridView.m */,
-			);
-			name = IAInfiniteGridView;
-			sourceTree = "<group>";
-		};
-		EA6FC1D31798E38500227DD1 /* JTListView */ = {
-			isa = PBXGroup;
-			children = (
-				EA6FC1D41798E3A000227DD1 /* JTListView.h */,
-				EA6FC1D51798E3A000227DD1 /* JTListView.m */,
-			);
-			name = JTListView;
-			sourceTree = "<group>";
-		};
-		EAE14199178264CE0005D53F /* LevelPopListView */ = {
-			isa = PBXGroup;
-			children = (
-				EAE1419A178264E30005D53F /* LGPopListView.h */,
-				EAE1419B178264E30005D53F /* LGPopListView.m */,
-				EAE1419C178264E30005D53F /* LGPopListViewCell.h */,
-				EAE1419D178264E30005D53F /* LGPopListViewCell.m */,
-			);
-			name = LevelPopListView;
-			sourceTree = "<group>";
-		};
 		EAECCCBF1773E83A00D9E39D = {
 			isa = PBXGroup;
 			children = (
@@ -290,9 +249,6 @@
 		EAECCCFA1773E9E500D9E39D /* source */ = {
 			isa = PBXGroup;
 			children = (
-				EA6FC1D31798E38500227DD1 /* JTListView */,
-				EA33DCF217978DD600266660 /* IAInfiniteGridView */,
-				EAE14199178264CE0005D53F /* LevelPopListView */,
 				EAECCD5A1773EB1F00D9E39D /* Additions */,
 				EAECCD581773EAB200D9E39D /* Common */,
 				EAECCD521773E9EE00D9E39D /* TableView */,
@@ -534,11 +490,7 @@
 				EAECCD511773E9E500D9E39D /* UIWindowAdditions.m in Sources */,
 				EAD42C53177932AC001ACF3C /* LGLocationService.m in Sources */,
 				EAD42C801779457B001ACF3C /* NSMutableDictionary+AddNilObject.m in Sources */,
-				EAE1419E178264E30005D53F /* LGPopListView.m in Sources */,
-				EAE1419F178264E30005D53F /* LGPopListViewCell.m in Sources */,
-				EA33DCF517978DE100266660 /* IAInfiniteGridView.m in Sources */,
 				EA6FC1CF1798C4BF00227DD1 /* LGLazyScrollView.m in Sources */,
-				EA6FC1D61798E3A000227DD1 /* JTListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
